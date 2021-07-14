@@ -1,0 +1,20 @@
+{
+  "name": "nodegit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn revvalk.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "nodegit": "^0.26.5"
+  },
+  "devDependencies": {
+    "@types/nodegit": "^0.26.6",
+    "ts-node-dev": "^1.0.0-pre.50",
+    "typescript": "^3.9.6"
+  }
+}

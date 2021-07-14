@@ -1,0 +1,22 @@
+{
+  "name": "yaml-metadata-in-markdown",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "js-yaml": "^3.14.1",
+    "remark-frontmatter": "^3.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-stringify": "^9.0.1",
+    "unified": "^9.2.0",
+    "unist-util-select": "^3.0.4"
+  },
+  "devDependencies": {
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Peter Babič <peter@peterbabic.dev> (https://peterbabic.dev/)",
+  "license": "MIT"
+}

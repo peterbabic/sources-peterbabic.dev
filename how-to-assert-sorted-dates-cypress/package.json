@@ -1,0 +1,22 @@
+{
+  "name": "datetime-sorted-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node .",
+    "cy:run": "cypress run",
+    "test": "start-test dev 3000 cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.peterbabic.dev:demo/datetime-sorted-cypress.git"
+  },
+  "author": "peter.babic",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "date-fns": "^2.16.1",
+    "start-server-and-test": "^1.11.6"
+  }
+}

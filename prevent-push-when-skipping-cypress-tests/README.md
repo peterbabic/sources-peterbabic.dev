@@ -16,13 +16,13 @@ npm install
 ![demo](demo.gif)
 
 Edit [spec.js](cypress/integration/spec.js), add **.skip** or **.only**
-modifier to the test or tests and try to push any commited changes this way
-to the repository. The push shoud fail due to pre-push hook, taht makes
-sure that the push fails in two situations:
+modifier to the test or tests and try to push any committed changes this
+way to the repository. The push shooed fail due to pre-push hook, that
+makes sure that the push fails in two situations:
 
-1. any test contains **.skip** or **.only**, which means not all of them
+1. Any test contains **.skip** or **.only**, which means not all of them
    would be executed
-1. any test fails, step 1 endures al ltests are executed
+1. Any test fails, step 1 endures all tests are executed
 
 The detection happens in the
 [package.json](https://git.peterbabic.dev/demo/cypress-prevent-push-skips/src/branch/master/package.json#L13)

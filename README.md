@@ -15,7 +15,3 @@ directories contain a full example with a README file.
 - <https://peterbabic.dev/blog/store-array-svelte-localstorage>
 - <https://peterbabic.dev/blog/using-css-selectors-on-markdown>
 - <https://peterbabic.dev/blog/yaml-metadata-in-markdown>
-
-## License
-
-All content in this repository is licensed under MIT license.
